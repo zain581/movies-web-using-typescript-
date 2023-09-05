@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { FaSearch } from "react-icons/fa";
-
+//movie type
 export type MovieType = {
     id: number;
     poster: string;
